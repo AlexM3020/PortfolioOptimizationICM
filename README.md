@@ -83,9 +83,11 @@ drawdown_analysis.py      # Drawdown-focused analysis
 images/                   # Saved figures
 ```
 
+
+
 ## How to run
 
-\`\`\`bash
+```bash
 pip install torch pandas numpy scikit-learn yfinance matplotlib scipy
 
 python data.py              # Download & prepare price/return data
@@ -97,4 +99,5 @@ python md.py                # Run Maximum Diversification baseline
 python fixed_alloc.py       # Run fixed-allocation baselines
 python compare.py           # Generate comparison plots
 python tables_comparison.py # Generate the final metrics table
-\`\`\`
+```
+
